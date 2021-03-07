@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 html{
     scroll-behavior: smooth;
 }
-=======
 
->>>>>>> cfe6272daad5b708bb2826054b9a66bf3a19620f
+
+
 .nav-container{
     display:flex;
     justify-content: flex-start;
@@ -30,7 +30,7 @@ html{
     cursor: pointer;
 }
 
-<<<<<<< HEAD
+
 .item:hover{
     color: #8739F9;
 }
@@ -76,45 +76,52 @@ button:hover{
 }
 
 @media (max-width: 575.98px) { 
-=======
+    .nav-container{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 575.98px) { 
     .nav-container{
         flex-direction: column;
     }
-
-
-
 }
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
->>>>>>> cfe6272daad5b708bb2826054b9a66bf3a19620f
+
     .nav-container{
         flex-direction: column;
     }
 }
 
-<<<<<<< HEAD
+
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
-=======
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
->>>>>>> cfe6272daad5b708bb2826054b9a66bf3a19620f
     .nav-container{
         flex-direction: column;
     }
 }
-<<<<<<< HEAD
+    /* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+    .nav-container{
+        flex-direction: column;
+    }
+}
+
 
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
-=======
 
+    .nav-container{
+        flex-direction: column;
+    }
+}
 
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) { 
->>>>>>> cfe6272daad5b708bb2826054b9a66bf3a19620f
+
     .nav-container{
         flex-direction: column;
     }
