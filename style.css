@@ -61,11 +61,18 @@ button:hover{
     color: #363636;
     background-color:#8739F9;
 }
+
+
+
 .link{
     text-decoration: none;
     text-align: center;
     color: #fff;
     font-size:2.5rem
+}
+
+a:visited{
+    color: #fff;
 }
 
 .text-description{
