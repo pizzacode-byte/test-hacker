@@ -10,6 +10,7 @@ html{
 }
 
 
+
 .item{
     font-family: 'Roboto Mono', monospace;
     margin-top: 2.5rem;
@@ -62,8 +63,6 @@ button:hover{
     background-color:#8739F9;
 }
 
-
-
 .link{
     text-decoration: none;
     text-align: center;
@@ -102,21 +101,16 @@ a:visited{
     height: 100%;
     text-align:center;
 }
-@media (max-width: 575.98px) { 
-    .nav-container{
-        flex-direction: column;
-    }
-
-        .container{
-            flex-direction: column;
-        }
-
-}
 
 @media (max-width: 575.98px) { 
     .nav-container{
         flex-direction: column;
     }
+
+    .container{
+        flex-direction: column;
+    }
+
 }
 
 /*Small devices (landscape phones, less than 768px)*/
@@ -127,13 +121,6 @@ a:visited{
     }
 }
 
-
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
-    .nav-container{
-        flex-direction: column;
-    }
-}
     /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
 
@@ -142,26 +129,9 @@ a:visited{
     }
 }
 
-
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
-
-    .nav-container{
-        flex-direction: column;
-    }
-}
-
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) { 
 
-    .nav-container{
-        flex-direction: column;
-    }
-}
-
-
-/* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
     .nav-container{
         flex-direction: column;
     }
